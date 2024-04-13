@@ -28,11 +28,26 @@ padding: 5px;
 color:white;
 font-weight:bold;
 width: 500px !important;
-border-radius: 15px;
+border-radius: 5px;
 filter: drop-shadow(2px 2px 2px #00000070);
 }
 
 .botao>a:hover{
     filter: none;
+    transition: 0.5s;
+}
+
+.link-port{
+    text-align: center; 
+    margin: 15px auto;
+    justify-content: center;
+    display: flex; 
+    color: aliceblue; 
+    text-decoration: none;
+}
+
+.link-port:hover{
+    color: #dec3ff;
+    text-decoration: underline;
     transition: 0.5s;
 }
